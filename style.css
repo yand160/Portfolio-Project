@@ -1,11 +1,18 @@
 :root {
-  --primary-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --primary-color: #3a3682;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
+  font-family: var(--default-font-family);
+}
+
+h1 {
+  font-size: 96px;
 }
 
 h1,
@@ -14,23 +21,32 @@ h3 {
   margin: 0;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 96px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
+  color: black;
 }
 
-h2 {
-  font-size: 48px;
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 2;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  color: black;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 1.5;
   font-weight: normal;
@@ -44,6 +60,17 @@ p {
 
 .navigation-links a {
   margin: 20px;
+}
+
+.hero {
+  background: rgb(16, 137, 177);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .primary-link {
@@ -62,7 +89,8 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid white;
 }
 
 .homepage-link {
