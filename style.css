@@ -118,3 +118,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.project-description {
+  padding: 12opx 60px;
+}
