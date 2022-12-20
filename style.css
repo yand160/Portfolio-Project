@@ -3,12 +3,19 @@
   --default-font-family: "Poppins", sans-serif;
   --primary-color: #3a3682;
   --secondary-color: #f5f2fe;
+  --tertiary-color: rgb(16, 137, 177);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin-top: 100px;
-  font-family: var(--default-font-family);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: black;
 }
 
 h1 {
@@ -26,28 +33,15 @@ h3 {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  color: black;
-}
-
-.hero h2 {
-  font-family: var(--default-font-family);
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 1.5;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
   color: black;
+}
+
+body {
+  margin-top: 100px;
+  font-family: var(--default-font-family);
 }
 
 p {
@@ -68,7 +62,7 @@ p {
 }
 
 .hero {
-  background: rgb(16, 137, 177);
+  background: var(--tertiary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -77,6 +71,13 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1.5;
 }
 
 .primary-link {
@@ -131,11 +132,11 @@ p {
 
 .btn-branding-outline {
   border-radius: 4px;
-  border: 1px solid rgb(16, 137, 177);
+  border: 1px solid var(--tertiary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  color: rgb(16, 137, 177);
+  color: var(--tertiary-color);
 }
 
 @media (max-width: 960px) {
@@ -148,7 +149,7 @@ p {
   }
 
   .hero {
-    background: rgb(16, 137, 177);
+    background: var(--tertiary-color);
     text-align: center;
     padding: 80px 20px;
   }
