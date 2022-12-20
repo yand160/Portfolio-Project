@@ -13,6 +13,11 @@ body {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
 }
 
 h1,
@@ -35,8 +40,8 @@ h6 {
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 36px;
-  line-height: 2;
+  font-size: 48px;
+  line-height: 1.5;
 }
 
 h3 {
@@ -47,8 +52,8 @@ h3 {
 
 p {
   font-family: var(--default-font-family);
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
   font-weight: normal;
 }
 
@@ -71,6 +76,7 @@ p {
 .hero p {
   font-size: 36px;
   font-weight: bold;
+  margin: 0;
 }
 
 .primary-link {
@@ -120,5 +126,35 @@ p {
 }
 
 .project-description {
-  padding: 12opx 60px;
+  padding: 120px 60px;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  border: 1px solid rgb(16, 137, 177);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: rgb(16, 137, 177);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    background: rgb(16, 137, 177);
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
