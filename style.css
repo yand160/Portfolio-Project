@@ -1,9 +1,9 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: #3a3682;
+  --primary-color: #14a5e8;
   --secondary-color: #f5f2fe;
-  --tertiary-color: rgb(16, 137, 177);
+  --tertiary-color: rgb(7, 99, 184);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
