@@ -51,6 +51,16 @@ p {
   font-weight: normal;
 }
 
+.navbar-white {
+  background-color: var(--secondary-color);
+  height: 120px;
+}
+
+.navbar-brand {
+  width: 325px;
+  height: 325px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
