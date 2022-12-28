@@ -151,6 +151,15 @@ p {
   color: var(--tertiary-color);
 }
 
+.footer {
+  color: var(--primary-color);
+  background: var(--tertiary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
