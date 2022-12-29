@@ -126,18 +126,6 @@ p {
   margin: 10px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
 .project-description {
   padding: 120px 60px;
 }
