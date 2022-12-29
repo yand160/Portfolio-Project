@@ -154,7 +154,10 @@ p {
 .footer {
   color: var(--primary-color);
   background: var(--tertiary-color);
-  margin: 0 20px;
+}
+
+footer .social-links a {
+  margin: 0 1.5px;
   padding: 10px 14px;
   font-size: 20px;
   border-radius: 50px;
