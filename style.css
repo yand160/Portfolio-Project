@@ -34,7 +34,7 @@ h3 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
   opacity: 0.7;
   color: black;
   line-height: 1.5;
@@ -52,6 +52,7 @@ p {
   font-weight: normal;
   color: black;
 }
+
 
 .navbar-white {
   background-color: var(--secondary-color);
@@ -81,7 +82,7 @@ p {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
@@ -182,11 +183,11 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
-    line-height: 56px;
+    font-size: 22px;
+    line-height: 23px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 18px;
   }
 
   .hero {
