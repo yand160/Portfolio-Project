@@ -184,7 +184,7 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 22px;
-    line-height: 23px;
+    line-height: 1.5;
   }
   h2 {
     font-size: 18px;
